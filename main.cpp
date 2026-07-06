@@ -15,7 +15,7 @@ int main() {
     std::cout << "I have picked a number between 1 and 100.\n";
     std::cout << "Can you guess it?\n\n";
     
-    do {      
+    do {
         std::cout << "Enter your guess: ";
         std::cin >> guess;
         attempts++;
